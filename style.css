@@ -1,0 +1,138 @@
+body {
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  margin: 15px;
+  width: 300px;
+  box-shadow: 0px 0px 5px 20px hsl(219, 50%, 10%);
+
+}
+
+.card-info {
+  margin: 25px;
+}
+
+.card-name {
+  font-weight: 600;
+}
+
+.card-name:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.img-container {
+  border-radius: 10px;
+  height: 250px;
+  position: relative;
+}
+
+.img-container:hover {
+  background-color: cyan;
+}
+
+.view-icon {
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  opacity: 0;
+}
+
+.card-img {
+  background-color: white;
+  background-image: url(./images/image-equilibrium.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.card-img:hover {
+  cursor:pointer;
+  opacity: 0.6;
+}
+
+.img-container:hover .view-icon {
+  opacity: 1;
+}
+
+.card-description {
+  color: hsl(215, 51%, 70%);
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-pricing {
+  align-items: center;
+  display: flex;
+}
+
+.card-price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.time-container {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+}
+
+.card-days-left {
+  margin-left: 10px
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+}
+
+.card-credits {
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  margin: 0;
+  width: fit-content;
+}
+
+.card-credits span {
+  color: white;
+}
+
+.card-credits span:hover {
+  color: cyan;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.img-creator {
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 15px;
+  width: 40px;
+}
+
+.creator-credits {
+  margin: 0;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0px;
+}
