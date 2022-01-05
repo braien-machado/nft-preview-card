@@ -50,6 +50,7 @@ body {
   top: 42%;
   left: 42%;
   opacity: 0;
+  z-index: 1;
 }
 
 .card-img {
@@ -65,8 +66,16 @@ body {
   opacity: 0.6;
 }
 
+.view-icon:hover {
+  cursor: pointer;
+}
+
 .img-container:hover .view-icon {
   opacity: 1;
+}
+
+.view-icon:hover + .card-img {
+  opacity: 0.6;
 }
 
 .card-description {
