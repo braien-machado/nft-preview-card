@@ -16,8 +16,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,11 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/braien-machado/nft-preview-card)
 - Live Site URL: [https://braien-machado-nft-preview-card.vercel.app/](https://braien-machado-nft-preview-card.vercel.app/)
 
 ## My process
